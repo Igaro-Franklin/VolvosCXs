@@ -257,8 +257,9 @@ body{
 
 .card-carroUm, .card-carroDois{
     width: 350px;
-    height: 400px;
+    height: 392px;
     background-color: rgb(255, 255, 255);
+    box-shadow: 8px 8px 8px rgb(80,71,71);
 }
 
 .body-card-carros img{
@@ -291,7 +292,14 @@ body{
 
 .card-XC{
     width: 400px;
-    background: linear-gradient(180deg, rgba(241,241,241,1) 35%, rgba(168,166,167,1) 60%);}
+    background: linear-gradient(180deg, rgba(241,241,241,1) 35%, rgba(168,166,167,1) 60%);
+    transition: all .6s;
+}
+
+.card-XC:hover{
+    transform: scale(1.1);
+    box-shadow: 2px 2px 2px rgb(78, 78, 78);
+}
 
 .card-XC img{
     width: 400px;
@@ -305,6 +313,67 @@ body{
 .card-carros-xc span{
     color: rgb(119, 119, 119);
     font-size: 20px;
+}
+
+
+/* ----------------------------------- Porque VOLVO ----------------------------------- */
+
+#pqVolvo{
+    display: flex;
+    padding: 50px 0;
+    background: linear-gradient(rgba(0, 0, 0, 0.87), rgba(0, 0, 0, 0.911)), url(/img/homepage-whyvolvo-desktop-16x9.avif);
+    background-position: center center;
+    background-size: cover;
+    background-position-y: 0px;
+    background-repeat: no-repeat;
+}
+
+.container-volvo{
+    width: 100%;
+}
+
+.img-pqVolvo{
+    width: 100%;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.img-pqVolvo img{
+    width: 800px;
+    border-radius: 30px;
+    box-shadow: 15px 15px 25px white;
+}
+
+.info-pqVolvo{
+    width: 100%;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.card-info-pqVolvo{
+    width: 300px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px auto;
+    border-radius: 20px;
+    background-color: rgba(185, 185, 185, 0.747);
+    box-shadow: 8px 8px 8px white;
+}
+
+.card-info-pqVolvo h4{
+    font-size: 30px;
+    text-align: center;
+    margin: 15px 40px;
+}
+
+.card-info-pqVolvo p{
+    font-size: 16px;
+    margin: 10px 15px;
+    text-align: center;
 }
 
 
